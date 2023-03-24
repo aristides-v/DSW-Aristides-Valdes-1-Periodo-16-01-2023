@@ -1,33 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fase 2</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        .contenido {
+            text-align: center;
+        }
+        * {
+        text-align: center;
+        background-color: rgba(242, 252, 99, 0.89);
+        color: black;
+        font-size: 18px;
+    }
+
+    </style>
 </head>
+
 <body>
     <header>
         <h1> CSS GRID</h1>
     </header>
-    <nav>
+
+    
+    <nav id="menu">
+        <a href=""></a>
+
         <ul>
-             <li> <a href=" "> Inicio </a></li> 
-             <li> <a href="#seccion2"> Qué es Grid </a></li>
-             <li></li>
-             <li></li>
+            <li> <a href="# seccion1"> Inicio </a></li>
+            <li> <a href="#seccion2"> Qué es Grid </a></li>
+            <li> <a href="#seccion2.1"> Propiedades CSS</a></li>
+            <li> <a href="#seccion3"> mockup</a></li>
+            <li><a href="#seccion4">Acerca de</a></li>
         </ul>
     </nav>
+    <a name="seccion2"></a>
     <section>
-<h3>
-    Inicio
-</h3>
+        <h2>Por qué Grid </h2>
+        <p>
+
+            Grid es uno de los nuevos valores de HTML5 que podemos dar a la propiedad display de un elemento, y que nos
+            permite maquetar las páginas web de una manera mucho más fácil que se hacía con la forma tradicional.
+            Con Grid hacemos que un elemento contenga la propiedad display:grid, lo que nos permitirá maquetar de una
+            forma mucho más fácil y potente que con cualquier otro tipo de propiedades.
+
+        </p>
+        <img src="imagenes/ima1.png" alt=" imagen de Grid">
     </section>
-    <a href="seccion2"></a>
+    <hr>
+    <a name="seccion2.1"></a>
     <section>
-
+        <h2> Propiedades CSS </h2>
+        <h3> Ejemplo de uso de Grid</h3>
+        <p> En esta estructura tenemos cuatro filas y cuatro columnas, una cabecera que ocupa la primera columna entera,
+            una zona main que ocupará seis celdas, el pie que ocupará la última fila y una barra lateral que ocupará dos
+            celdas.
+            Todo lo anterior lo podemos hacer utilizando únicamente propiedades CSS, dando al contenedor que tendrá esa
+            estructura la propiedad display:grid
+        </p>
+        <img src="imagenes/ima2.png" alt="">
+        <h4> Aspecto a tener en cuenta</h4>
+        <p> Hay que tener cuidado cuando se utiliza esta propiedad, porque a día de hoy no todos los navegadores la
+            soportan. No obstante, hay que decir que la gran mayoría si lo hace, como por ejemplo Chrome, Safari,
+            Firefox, Opera y todos los más usados, aunque pueden existir navegadores de ciertos dispositivos dónde no
+            funcione.</p>
     </section>
+    <hr>
+    <a name="seccion3"></a>
+    <section>
+        <h3> Mockup de la página</h3>
+        <img src="imagenes/mockup.PNG" alt="">
+    </section>
+    <hr>
+    <a name="seccion4"></a>
+    <section>
+        <h2> ACERCA DE </h2>
+        <h5> Nombre: Aristides Valdes Lopez</h5>
+        <h5> Correo: arizty93@gmail.com</h5>
+        <h5>Skype: aristides.valdes_1</h5>
+    </section>
+    <hr>
+    <footer>
+        <div class="contenido">
+            <p> Copyright (c) 2023 Company Arístides Valdés All Rights Reserved </p>
+            <p>Actualizado 24 Marzo 2023</p>
+        </div>
 
-    <p> Grid es uno de los nuevos valores de HTML5 que podemos dar a la propiedad display de un elemento, y que nos permite maquetar las páginas web de una manera mucho más fácil que se hacía con la forma tradicional.</p>
+    </footer>
+
 </body>
+
 </html>
